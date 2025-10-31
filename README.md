@@ -1,8 +1,8 @@
 # 🏦 Batonics Technical Assessment
 
 ### Overview
-A lightweight real-time order book reconstruction system.
-It streams Market-By-Order (MBO) data over TCP, rebuilds the book, and saves periodic snapshots to SQLite for analysis or visualization.
+A lightweight real-time **order book reconstruction system**.
+It streams **Market-By-Order (MBO)** data over TCP, rebuilds the book, and saves periodic snapshots to **SQLite** for analysis or visualization.
 
 ### Features
 - Real-time TCP streaming (sender + receiver)
