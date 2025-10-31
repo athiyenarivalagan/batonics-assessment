@@ -1,0 +1,18 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Local data and outputs
+orderbook_snapshots.db
+reconstructed_book.json
+
+# macOS / system files
+.DS_Store
