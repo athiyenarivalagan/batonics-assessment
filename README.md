@@ -29,18 +29,18 @@ convert_dbn_to_text.py        # Converts .dbn to .txt
 requirements.txt
 
 
-## Quick Start
+#### Quick Start
 # 1. Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 
-# 2. Install dependencies
+#### 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Start TCP sender (simulated exchange feed)
+#### 3. Start TCP sender (simulated exchange feed)
 python -m app.streaming.tcp_sender
 
-# 4. Start TCP receiver (reconstructs + stores)
+#### 4. Start TCP receiver (reconstructs + stores)
 python -m app.streaming.tcp_receiver
 
 ## Config (from app/config.py)
